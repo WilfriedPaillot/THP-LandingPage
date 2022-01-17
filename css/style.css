@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;   
+  font-family: "Poppins", sans-serif;
 }
 
 .card .imgAnimated:hover {
@@ -34,13 +34,21 @@ body {
   justify-content: space-around;
 }
 
-#badges img{
+#badges img {
   width: 40px;
   height: 40px;
 }
 
-.badges :hover{
-  -webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+.badges :hover {
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* JB */
+.jumbotron-bg {
+  background-image: url("../img/header/pill_jumbotron.jpg");
+  background-size: 100%;
+  background-position: cover;
+  height: 50vh;
 }
